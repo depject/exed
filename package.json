@@ -13,7 +13,9 @@
     "pull-stream": "^3.5.0",
     "stream-to-pull-stream": "^1.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electro": "^2.0.3"
+  },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
