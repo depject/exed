@@ -1,0 +1,26 @@
+
+.screen {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom:0px;
+}
+
+.wide {
+  width: 100%
+}
+
+.high {
+  height: 100%
+}
+.shrink {
+  min-height: 0px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  margin: 10px;
+}

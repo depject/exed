@@ -1,0 +1,22 @@
+{
+  "name": "exed",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/exed",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/exed.git"
+  },
+  "dependencies": {
+    "depject": "^4.1.0",
+    "hyperscript": "^2.0.2",
+    "pull-stream": "^3.5.0",
+    "stream-to-pull-stream": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
